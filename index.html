@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Buku Kas Reuni — Alumni SMP 66 Angkatan 1996</title>
+<title>List Peserta Reuni — Alumni SMP 66 Angkatan 1996</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -390,7 +390,7 @@
       <div class="login-wrap">
         <div class="login-card">
           <div class="stempel">SMP 66<br>ANGK. 96</div>
-          <h1 class="display">Buku Kas Reuni</h1>
+          <h1 class="display">List Peserta Reuni</h1>
           <p class="login-sub">Alumni SMP Negeri 66 &middot; Angkatan 1996</p>
           ${errorMsg ? `<div class="login-error">${escapeHtml(errorMsg)}</div>` : ""}
           <form id="loginForm">
@@ -440,7 +440,7 @@
         <div class="brand">
           <div class="badge">66</div>
           <div>
-            <h2 class="display">Buku Kas Reuni Alumni SMP 66</h2>
+            <h2 class="display">List Peserta Reuni Alumni SMP 66</h2>
             <div class="sub">Angkatan 1996 &middot; Rekap Pembayaran Peserta &middot; <span id="saveIndicator">Tersimpan</span></div>
           </div>
         </div>
@@ -481,7 +481,7 @@
 
         ${isAdmin ? `<div class="manage-users" id="manageUsersBox"></div>` : ""}
       </main>
-      <footer class="foot">Data disimpan otomatis (SQLite) dan tetap tersimpan meski halaman di-refresh &middot; Buku Kas Reuni SMP 66 Angkatan 1996</footer>
+      <footer class="foot">Data disimpan otomatis (SQLite) dan tetap tersimpan meski halaman di-refresh &middot; List Peserta Reuni SMP 66 Angkatan 1996</footer>
     `;
 
     document.getElementById("logoutBtn").addEventListener("click", ()=>{ session = null; renderLogin(); });
